@@ -95,7 +95,16 @@ public class Computador {
       
     @Override
     public String toString(){
-        return "Especificiaciones Tecnicas:\n";
+        StringBuilder t = new StringBuilder("Especificiaciones Tecnicas:\n");
+        t.append("\n");
+        t.append("\n");
+        t.append("\n");
+        t.append("\n");
+        t.append("\n");
+        t.append("\n");
+        t.append("\n");
+        t.append("\n");
+        return t.toString();
                
     }
 
